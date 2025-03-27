@@ -8,6 +8,7 @@ import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
 import { SplashScreenProvider } from "@/context/SplashScreenContext";
 import CookieConsent from "@/components/cookie/cookie";
+import GoogleAnalytics from "@/components/cookie/GoogleA";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -67,6 +68,7 @@ export default function RootLayout({
           <TooltipProvider delayDuration={0}>
             {children}
             <Navbar />
+            <GoogleAnalytics/>
             <CookieConsent/>
           </TooltipProvider>
         </ThemeProvider>
