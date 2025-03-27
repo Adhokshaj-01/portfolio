@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
 import { SplashScreenProvider } from "@/context/SplashScreenContext";
+import CookieConsent from "@/components/cookie/cookie";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -66,6 +67,7 @@ export default function RootLayout({
           <TooltipProvider delayDuration={0}>
             {children}
             <Navbar />
+            <CookieConsent/>
           </TooltipProvider>
         </ThemeProvider>
         </SplashScreenProvider>
