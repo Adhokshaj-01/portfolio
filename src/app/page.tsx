@@ -251,7 +251,7 @@ export default function Page() {
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Want to connect ? Just send a mail{" "}
-                and I will respond ASPA. 
+                and I will respond ASAP. 
               </p>
               <Button className="justify-center align-center ">
                 <a href={`mailto:${DATA.contact.email}`}>Send a mail &nbsp;</a><Mail/></Button>
