@@ -39,8 +39,8 @@ export const DATA = {
         navbar: true,
       },
       Cosmos: {
-        name: "Photo Shoecase",
-        url: "#",
+        name: "Photo Cluster",
+        url: "https://www.cosmos.so/adhokshaj",
         icon: Icons.photo,
         navbar: true,
       },
